@@ -15,8 +15,8 @@ Thumbs.db
 desktop.ini
 
 # Never commit real or confidential data. Only the synthetic demo file is tracked.
-data/*
-!data/synthetic_demo_assays.csv
+phosphate-geochem-prospectivity/data/*
+!phosphate-geochem-prospectivity/data/synthetic_demo_assays.csv
 *.xlsx
 *.xls
 *.shp
