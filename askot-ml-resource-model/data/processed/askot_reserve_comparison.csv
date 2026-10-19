@@ -1,0 +1,6 @@
+name,tonnage_t,Cu_pct,Pb_pct,Zn_pct,cutoff,density,method,tonnage_mt
+"GSI (Probable, ~1974-78)",767286.55,2.32,2.64,3.95,min 1 m thickness,3.2,rectangle / cross-section,0.76728655
+"DGM (Probable+Possible, ~1977-85)",960000.0,,,,not stated,,not stated,0.96
+MECL 1992 (Proved+Probable),803183.0,2.61,2.96,4.39,2% TMC,3.5,cross-section,0.803183
+"SRK/NI 43-101 (Indicated, 2018)",1860000.0,2.62,,5.8,not stated,,kriging (NI 43-101),1.86
+ML model (Random Forest),1522500.0,2.0254164836341073,3.021359491853313,5.669718346397563,2% TMC,3.5,Random Forest block model,1.5225

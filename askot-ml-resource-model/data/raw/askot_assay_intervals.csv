@@ -1,0 +1,83 @@
+borehole_id,from_m,to_m,true_thickness_m,core_recovery_pct,Cu_pct,Pb_pct,Zn_pct,TMC_pct,Au_gpt,Ag_gpt,sample_type,source_report
+ASK-8,50.90,52.15,0.99,25,2.46,2.23,2.31,7.00,,,borehole_intercept,1980 MECL Appendix-V
+ASK-1,30.75,52.10,11.00,58,2.28,1.70,2.64,6.62,,,borehole_intercept,1980 MECL Appendix-V
+ASK-2,22.90,25.90,2.70,95,1.74,1.80,5.28,,,,borehole_intercept,1980 MECL Appendix-V
+ASK-2,44.20,44.95,0.78,60,1.20,1.35,3.33,,,,borehole_intercept,1980 MECL Appendix-V
+ASK-9,29.30,40.15,6.97,0,3.32,1.87,1.00,6.19,,,borehole_intercept,1980 MECL Appendix-V
+ASK-23,100.00,124.56,15.67,20,2.80,2.51,5.88,11.19,,,borehole_intercept,1980 MECL Appendix-V
+ASK-5,38.05,43.10,2.74,32,8.97,3.55,5.26,17.78,,,borehole_intercept,1980 MECL Appendix-V
+ASK-14,68.15,69.20,0.87,100,0.59,1.54,4.07,6.40,,,borehole_intercept,1980 MECL Appendix-V
+ASK-14,75.07,87.60,8.13,92,0.78,2.79,8.40,10.76,,,borehole_intercept,1980 MECL Appendix-V
+ASK-15,124.03,147.25,6.04,10,7.40,11.27,18.76,,,,borehole_intercept,1980 MECL Appendix-V
+ASK-10,70.60,76.20,3.96,20,1.27,,,1.27,,,borehole_intercept,1980 MECL Appendix-V
+ASK-17,125.30,128.30,1.37,100,6.37,4.95,9.17,20.49,,,borehole_intercept,1980 MECL Appendix-V
+ASK-19,126.35,149.85,9.87,100,1.83,2.66,2.38,6.07,,,borehole_intercept,1980 MECL Appendix-V
+ASK-4,26.00,28.00,1.00,50,1.41,2.47,2.70,6.68,,,borehole_intercept,1980 MECL Appendix-V
+B-1,6.56,9.00,2.00,75,2.54,1.00,6.06,9.60,,,borehole_intercept,1980 MECL Appendix-V
+B-1,99.20,101.20,1.20,30,3.40,0.20,10.60,14.20,,,borehole_intercept,1980 MECL Appendix-V
+B-3,120.03,126.34,5.07,35,0.50,1.40,3.25,5.15,,,borehole_intercept,1980 MECL Appendix-V
+B-3,142.03,150.01,6.99,22,3.61,0.68,6.40,10.69,,,borehole_intercept,1980 MECL Appendix-V
+B-4,93.97,94.97,0.51,72,1.58,0.46,0.51,2.55,,,borehole_intercept,1980 MECL Appendix-V
+B-4,97.20,100.33,2.56,97,4.59,12.54,4.94,22.07,,,borehole_intercept,1980 MECL Appendix-V
+B-5,213.30,216.44,2.57,95,4.01,14.73,17.17,35.91,,,borehole_intercept,1980 MECL Appendix-V
+ASK-23,,,15.67,28,1.68,4.38,4.77,10.83,,,borehole_intercept,"1980 MECL TEXT-volume narrative (Section V Findings) -- same interval as Appendix-V row above but conflicting grade values reported in narrative text vs the structured Appendix-V table; from/to depths not separately stated in this narrative form, only thickness; retained as a separate row for traceability of the discrepancy"
+ASK-9,,,6.97,,3.22,1.87,1.00,6.19,,,borehole_intercept,"1980 MECL TEXT-volume narrative (Section 3.12) cross-check figure for the same interval as the Appendix-V row above; narrative figure differs slightly from Appendix-V's tabulated Cu 3.32% (here 3.22%) -- minor cross-document inconsistency, retained separately"
+ASK/IL/SC1/R,2.00,4.50,,,2.44,3.32,3.80,9.56,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, roof channel, sample ASK/IL/SC1/R, dist. 2.00m from survey station J/5, channel length 2.50m (from/to reconstructed as dist to dist+length)"
+ASK/IL/SC2/R,4.00,5.95,,,9.47,1.78,3.12,14.37,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, roof, sample ASK/IL/SC2/R, dist. 4.00m from J/5, channel length 1.95m"
+ASK/IL/SC3/R,6.00,8.30,,,0.36,1.70,3.51,5.57,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, roof, sample ASK/IL/SC3/R, dist. 6.00m from J/5, channel length 2.30m; TMC marked '(calc)' in source"
+ASK/IL/SC4/R,8.00,9.90,,,4.83,1.74,2.47,9.04,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, roof, sample ASK/IL/SC4/R, dist. 8.00m from J/5, channel length 1.90m"
+ASK/IL/SC1/W1,2.00,3.40,,,0.10,1.84,2.45,4.39,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC1/W1, dist. 2.00m from J/5, channel length 1.40m"
+ASK/IL/SC2/W2,4.00,4.90,,,3.46,7.23,11.83,22.52,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC2/W2, dist. 4.00m from J/5, channel length 0.90m"
+ASK/IL/SC2/W2-dup,4.00,5.20,,,1.89,3.00,3.90,8.79,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, duplicate sample at same station as ASK/IL/SC2/W2 (sample ID disambiguated with -dup suffix), dist. 4.00m from J/5, channel length 1.20m"
+ASK/IL/SC4/W2,6.00,6.30,,,0.91,5.24,9.10,15.25,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC4/W2, dist. 6.00m from J/5, channel length 0.30m"
+ASK/IL/SC3/W3,6.00,7.13,,,1.04,0.61,0.83,2.49,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC3/W3, dist. 6.00m from J/5, channel length 1.13m"
+ASK/IL/SC1/W2,8.00,8.45,,,1.70,6.07,10.14,17.91,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC1/W2, dist. 8.00m from J/5, channel length 0.45m"
+ASK/IL/SC4/W3,8.00,9.55,,,0.45,0.62,1.17,2.24,,,underground_channel,"1980 MECL Appendix-VI -- Right Drive, 1015m Level, wall, sample ASK/IL/SC4/W3, dist. 8.00m from J/5, channel length 1.55m"
+ASK/IL/NC1/R,2.00,4.20,,,0.92,3.60,6.25,10.77,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, roof, sample ASK/IL/NC1/R, dist. 2.00m from J/5, channel length 2.20m"
+ASK/IL/NC2/R,4.00,5.85,,,2.87,1.74,3.90,8.51,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, roof, sample ASK/IL/NC2/R, dist. 4.00m, channel length 1.85m"
+ASK/IL/NC3/R,6.00,7.60,,,3.26,1.12,2.08,6.46,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, roof, sample ASK/IL/NC3/R, dist. 6.00m, channel length 1.60m"
+ASK/IL/NC4/R,7.00,8.60,,,3.13,1.87,2.99,7.99,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, roof, sample ASK/IL/NC4/R, dist. 7.00m, channel length 1.60m"
+ASK/IL/NC1/W1,2.00,3.40,,,0.21,1.72,2.27,4.20,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC1/W1, dist. 2.00m, channel length 1.40m"
+ASK/IL/NC2/W2,4.00,4.30,,,5.75,4.61,7.54,17.90,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC2/W2, dist. 4.00m, channel length 0.30m"
+ASK/IL/NC2/W2-dup,4.00,5.50,,,3.22,3.45,2.18,7.05,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, duplicate at same station as ASK/IL/NC2/W2 (disambiguated with -dup suffix), dist 4.00m, channel length 1.50m; TMC marked '(calc)' in source"
+ASK/IL/NC3/W1,6.00,6.70,,,9.81,5.03,6.19,22.63,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC3/W1, dist. 6.00m, channel length 0.70m; TMC marked '(calc)' in source"
+ASK/IL/NC3/W2,6.00,7.35,,,2.35,4.03,3.12,9.50,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC3/W2, dist. 6.00m, channel length 1.35m"
+ASK/IL/NC4/W1,7.00,7.65,,,8.62,3.91,5.98,18.51,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC4/W1, dist. 7.00m, channel length 0.65m"
+ASK/IL/NC4/W2,7.00,8.35,,,3.60,0.58,1.04,5.22,,,underground_channel,"1980 MECL Appendix-VII -- Left Drive, 1015m Level, wall, sample ASK/IL/NC4/W2, dist. 7.00m, channel length 1.35m"
+ASK/2L/DR/RC11,27.00,,,,4.62,15.80,21.32,41.74,,,underground_channel,"1980 MECL Appendix-VIII -- Right Drive, 985m Level, roof series, sample R/C11, dist. 27m from 'Boof'(roof) reference; to-depth/length not individually re-transcribed in source notes (selected high-grade hit only)"
+ASK/2L/DR/RC12,29.00,,,,12.84,6.76,6.63,26.23,,,underground_channel,"1980 MECL Appendix-VIII -- Right Drive, 985m Level, roof series, sample R/C12, dist. 29m"
+ASK/2L/DR/PM06,,,,,3.94,9.15,13.00,26.09,,,underground_channel,"1980 MECL Appendix-VIII -- Right Drive, 985m Level, wall series, sample PM/06; distance not individually re-transcribed in source notes (selected high-grade hit only)"
+ASK/2L/DR/PMC10,,,,,4.62,15.80,21.32,41.74,,,underground_channel,"1980 MECL Appendix-VIII -- Right Drive, 985m Level, wall series, sample PM/C10"
+ASK/2L/AD/east5,15.70,17.05,,,7.53,15.10,15.70,30.41,,,underground_channel,"1980 MECL Appendix-IX -- Cross-cut, 985m Level, East wall sample 5, distance from survey station J1/4"
+ASK/2L/AD/west9,16.40,17.20,,,5.33,10.81,11.49,25.63,,,underground_channel,"1980 MECL Appendix-IX -- Cross-cut, 985m Level, West wall sample 9, distance from survey station J1/4"
+ASK/2L/E/DR/FC9,15.00,,,,18.96,14.95,34.51,,,,underground_channel,"1980 MECL Appendix-X -- Right Drive Face Channel, 985m Level, sample FC9, dist. 15.00m from survey station J/N; Cu value marked uncertain '(?)' in source notes"
+ASK/2L/E/DR/FC24,29.14,,,,8.90,11.33,13.26,33.49,,,underground_channel,"1980 MECL Appendix-X -- Right Drive Face Channel, 985m Level, sample FC24, dist. 29.14m from J/N"
+ASK/2L/E/DR/FC25,30.34,,,,6.32,15.70,19.24,41.26,,,underground_channel,"1980 MECL Appendix-X -- Right Drive Face Channel, 985m Level, sample FC25, dist. 30.34m from J/N"
+ASK/2L/3/DR/B-DM,,,,,0.95,1.07,1.02,4.64,,,underground_blast,"1980 MECL Appendix-XI -- blast samples, Right Drive 985m Level, final summary row 'ASK/DM' -- likely a composite/dump/waste-rock check sample (much lower grade than surrounding blast samples 3-11% Cu range)"
+ASK-1015-RD-1985-bulk,,,,,1.72,3.45,5.26,,,,bulk_sample,"1980 MECL Appendix-XVI -- 1000 kg bulk sample, 985m level cross-cut, sent to IBM Nagpur; chemical analysis Cu/Pb/Zn (S 8.52%, SiO2 29.27%, Al2O3 9.78%, MgO 9.47% also reported but not relevant columns here)"
+ASK-1015-RD-1985-bulk,,,,,,,,,0.40,84.40,bulk_sample,"1980 MECL Appendix-XVI -- same 1000 kg bulk sample, fire assay: Au 0.40 g/t, Ag 84.40 g/t (recorded in Au_gpt/Ag_gpt columns of this row; Cu/Pb/Zn columns blank here to keep fire-assay and chemical-assay rows distinguishable -- see preceding row for chemical Cu/Pb/Zn)"
+S-1,,,,,0.52,0.40,1.70,2.62,,,slag_sample,1980 MECL Appendix-XVII -- surface slag-dump sample S-1
+S-2,,,,,0.72,0.68,2.65,4.05,,,slag_sample,1980 MECL Appendix-XVII -- surface slag-dump sample S-2
+S-3,,,,,0.60,0.41,2.46,3.47,,,slag_sample,1980 MECL Appendix-XVII -- surface slag-dump sample S-3
+S-4,,,,,0.52,0.45,2.46,3.43,,,slag_sample,1980 MECL Appendix-XVII -- surface slag-dump sample S-4
+S-5,,,,,0.60,0.05,2.46,3.11,,,slag_sample,1980 MECL Appendix-XVII -- surface slag-dump sample S-5
+ASK-2L-EX-BS19,,,,,0.22,20.41,23.37,44.00,,,underground_blast,"1992 MECL Annexure Part2 (VIA series) -- 2nd Phase blast sample, winze-connecting parallel drive, 985m level, sample BS-19; very high TMC"
+ASK-2L-EX-BS9,,,,,,,18.59,24.59,,,underground_blast,"1992 MECL Annexure Part2 (VIA series) -- 2nd Phase blast sample BS-9; only Zn and TMC individually cited in source notes, Cu/Pb left blank rather than guessed"
+ASK-2L-ED-C43-area,,,,,13.53,0.78,17.27,26.59,,,underground_channel,"1992 MECL Annexure Part1, Annexure VIIB-1 -- East Drive channel sample, 985m level, near survey station 326/427, width 4.20m; sample ID approximate per source notes ('sample ASK/2L/ED/C-43 area')"
+ASK-7L-AC-PW-Ch-low,,,,,,,,,,,underground_channel,"1992 MECL Annexure Part2, Annexure VIIB-2/B-3 -- 985m level channel samples, ASK/7L/AC/PW/Ch- series; source notes state 'All the results assay are <0.05% Cu, Pb, Zn' for some intervals in this series -- recorded here as a placeholder near-zero-grade row rather than fabricating specific numbers; see askot_1992_annex_part2_notes.md Section 2 for full series description"
+ASK-7L-VIIIA1-s71,,,,,,,33.83,,,,underground_channel,"1992 MECL Annexure Part2, Annexure VIIIA-1 -- East Drift/Drive sampling at 960m level, sample 71, notably high Zn grade; Cu/Pb not individually cited in source notes"
+ASK-1015mRL-NWwall,,,,11.55,1.24,4.24,3.96,,,,underground_channel,"1992 MECL TEXT-volume Table I/3 -- 1015 mRL, near Adit No.3/ASK-23 area, NW wall, thickness 11.55m (recorded in true_thickness_m; from/to not separately given in this narrative table)"
+ASK-1015mRL-SEwall,,,,9.90,2.00,3.93,5.08,,,,underground_channel,"1992 MECL TEXT-volume Table I/3 -- 1015 mRL, near Adit No.3/ASK-23 area, SE wall, thickness 9.90m"
+ASK-1015mRL-bothwall-avg,,,,10.73,1.59,4.10,4.48,,,,underground_channel,"1992 MECL TEXT-volume Table I/3 -- 1015 mRL, both-wall average, thickness 10.73m (this is an averaged/derived row, not a single physical sample -- flagged as such)"
+ASK-1015mRL-SWdrive-back,,,,1.88,5.29,8.7,11.47,,,,underground_channel,"1992 MECL TEXT-volume Table I/4 -- SW drive at 1015 mRL, drive back width 1.88m"
+ASK-1015mRL-SWdrive-fw,,,,1.31,2.53,4.01,5.17,,,,underground_channel,"1992 MECL TEXT-volume Table I/4 -- SW drive at 1015 mRL, foot wall width 1.31m"
+ASK-1015mRL-SWdrive-avg,,,,3.19,4.16,6.7,8.88,,,,underground_channel,"1992 MECL TEXT-volume Table I/4 -- SW drive at 1015 mRL, average width 3.19m (Pb value '6.7?' partly obscured per source notes -- recorded as given; this is an averaged/derived row, not a single physical sample)"
+ASK-985mRL-exposure,,,,9.35,2.80,2.51,5.88,11.19,,,underground_channel,"1980 MECL TEXT-volume narrative (Section 3.12) -- 985m level ore body exposure, 9.35m true width; cross-checked against ASK-23 borehole intercept above (same general zone, different measurement basis -- mine exposure vs. borehole core)"
+ASK-985mRL-comp1-blast,,,,,,,,,0.31,40.45,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of blast composite Comp-1 at 985m level, 1st Phase"
+ASK-985mRL-comp2-blast,,,,,,,,,0.64,102.00,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of blast composite Comp-2 at 985m level (highest Ag value found in this batch)"
+ASK-985mRL-compCh3-channel,,,,,,,,,0.26,76.77,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of channel composite Comp/Ch-3 at 985m level"
+ASK-985mRL-compCh4-channel,,,,,,,,,,52.30,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of channel composite Comp/Ch-4 at 985m level; Au not reported/illegible in source, left blank"
+ASK-985mRL-compCh5-channel,,,,,,,,,0.59,46.76,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of channel composite Comp/Ch-5 at 985m level"
+ASK-985mRL-WBcomp1-channel,,,,,,,,,0.84,60.96,bulk_sample,"1992 MECL Annexure Part2, Annexure XI-B-1 -- fire assay of channel composite WB/Comp-1 at 985m level"
+ASK-960mRL-raise-composites,,,,,,,,,0.10 to 0.40 (range),25.10 to 70.20 (range),bulk_sample,"1992 MECL Annexure Part2, Annexure XI-C-1 -- 4 composite/channel samples at 960m level and at raise; reported as a range since source gives 4 samples without individually splitting them out in our notes -- treat as indicative only, not a single-sample value"
+ASK-985-960mRL-1992-fireassay-avg,,,,,,,,,0.55,71.40,bulk_sample,"1992 MECL TEXT-volume (Section 3.6.7) -- average fire assay of composite samples from 985m/960m levels, 2nd Phase; this is a derived average across multiple composites, not a single physical sample"

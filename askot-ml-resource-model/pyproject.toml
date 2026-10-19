@@ -1,0 +1,33 @@
+[project]
+name = "askot-ml-resource-model"
+version = "1.0.0"
+description = "Machine-learning 3-D grade and tonnage model for the Askot Cu-Pb-Zn deposit, benchmarked against four legacy classical estimates (1974-2018)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yashu Joshi" }]
+keywords = [
+    "mineral-resource-estimation",
+    "geostatistics",
+    "random-forest",
+    "block-model",
+    "economic-geology",
+]
+dependencies = [
+    "streamlit>=1.40",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "plotly>=5.20",
+    "scikit-learn>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.setuptools]
+packages = ["askot"]
