@@ -1,0 +1,19 @@
+model,features,validation,ROC_AUC,PR_AUC,fold_AUC_sd
+Random Forest,geochemistry (CLR),random k-fold (samples),0.939,0.919,0.025
+Random Forest,geochemistry (CLR),grouped by drillhole,0.938,0.918,0.013
+Random Forest,geochemistry (CLR),spatial blocks,0.935,0.92,0.058
+Random Forest,geochemistry + coordinates,random k-fold (samples),0.939,0.915,0.025
+Random Forest,geochemistry + coordinates,grouped by drillhole,0.939,0.917,0.013
+Random Forest,geochemistry + coordinates,spatial blocks,0.934,0.917,0.056
+Random Forest,spurious smooth map layers,random k-fold (samples),0.868,0.827,0.03
+Random Forest,spurious smooth map layers,grouped by drillhole,0.849,0.8,0.032
+Random Forest,spurious smooth map layers,spatial blocks,0.673,0.609,0.097
+XGBoost,geochemistry (CLR),random k-fold (samples),0.939,0.916,0.026
+XGBoost,geochemistry (CLR),grouped by drillhole,0.941,0.915,0.011
+XGBoost,geochemistry (CLR),spatial blocks,0.939,0.92,0.051
+XGBoost,geochemistry + coordinates,random k-fold (samples),0.941,0.916,0.026
+XGBoost,geochemistry + coordinates,grouped by drillhole,0.945,0.921,0.012
+XGBoost,geochemistry + coordinates,spatial blocks,0.939,0.919,0.043
+XGBoost,spurious smooth map layers,random k-fold (samples),0.867,0.823,0.026
+XGBoost,spurious smooth map layers,grouped by drillhole,0.843,0.787,0.028
+XGBoost,spurious smooth map layers,spatial blocks,0.643,0.553,0.086
