@@ -5,6 +5,8 @@
 [![Tests: 24](https://img.shields.io/badge/tests-24%20passing-brightgreen.svg)](tests/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+Part of [Yashu Joshi's geology portfolio](../README.md).
+
 A reproducible 3-D grade and tonnage model for the **Askot polymetallic
 (Cu-Pb-Zn) deposit**, Pithoragarh district, Uttarakhand, India — rebuilt from
 the original assay data of four exploration campaigns spanning 1974–2018, and
@@ -58,8 +60,8 @@ constraint is data quality, not algorithm choice.** See
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/askot-ml-resource-model.git
-cd askot-ml-resource-model
+git clone https://github.com/YASHUJOSHI/Geology.git
+cd Geology/askot-ml-resource-model
 python -m venv .venv && .venv\Scripts\activate     # Windows
 # source .venv/bin/activate                        # macOS / Linux
 pip install -r requirements.txt
