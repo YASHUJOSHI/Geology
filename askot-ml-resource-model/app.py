@@ -228,7 +228,7 @@ with tab_body:
                 camera=dict(eye=dict(x=1.5, y=1.5, z=0.9)),
             ),
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     with right:
         st.subheader("What you're looking at")
@@ -264,7 +264,7 @@ with tab_body:
             "blocks": [f"{estimate.n_blocks_total:,}",
                        f"{estimate.n_blocks_in_range:,}",
                        f"{estimate.n_blocks:,}"],
-        }), hide_index=True, use_container_width=True)
+        }), hide_index=True, width="stretch")
         st.caption(
             f"{rejected:,} blocks are discarded for sitting beyond the search "
             "radius. Skipping that step is what makes naive ML resource "
@@ -308,7 +308,7 @@ with tab_sensitivity:
         legend=dict(orientation="h", yanchor="bottom", y=1.0),
         hovermode="x unified",
     )
-    st.plotly_chart(fig_c, use_container_width=True)
+    st.plotly_chart(fig_c, width="stretch")
 
     full = curve[curve["blocks"] == curve["blocks"].max()]
     plateau_end = float(full["cutoff_tmc_pct"].max())
@@ -337,7 +337,7 @@ with tab_sensitivity:
         xaxis_title="Tonnage (Mt)", yaxis=dict(autorange="reversed"),
         showlegend=False,
     )
-    st.plotly_chart(fig_b, use_container_width=True)
+    st.plotly_chart(fig_b, width="stretch")
 
     st.dataframe(
         bench[["name", "tonnage_mt", "Cu_pct", "Pb_pct", "Zn_pct", "cutoff",
@@ -345,7 +345,7 @@ with tab_sensitivity:
                    "name": "Estimate", "tonnage_mt": "Tonnage (Mt)",
                    "Cu_pct": "Cu %", "Pb_pct": "Pb %", "Zn_pct": "Zn %",
                    "cutoff": "Cut-off", "method": "Method"}),
-        hide_index=True, use_container_width=True,
+        hide_index=True, width="stretch",
         column_config={"Tonnage (Mt)": st.column_config.NumberColumn(
             format="%.2f")},
     )
@@ -372,7 +372,7 @@ with tab_validation:
         cv.scores.rename(columns={
             "metal": "Metal", "RF_MAE": "RF MAE", "RF_R2": "RF R²",
             "IDW_MAE": "IDW MAE", "IDW_R2": "IDW R²"}),
-        hide_index=True, use_container_width=True,
+        hide_index=True, width="stretch",
         column_config={c: st.column_config.NumberColumn(format="%.3f")
                        for c in ("RF MAE", "RF R²", "IDW MAE", "IDW R²")},
     )
@@ -394,7 +394,7 @@ with tab_validation:
         imp = feature_importance(composites)
         st.dataframe(imp.rename(columns={"axis": "Axis",
                                          "importance": "Gini importance"}),
-                     hide_index=True, use_container_width=True,
+                     hide_index=True, width="stretch",
                      column_config={"Gini importance":
                                     st.column_config.ProgressColumn(
                                         format="%.3f", min_value=0.0,
@@ -409,7 +409,7 @@ with tab_validation:
                 "Cu %": [sw["Cu_pct"], estimate.grades["Cu_pct"]],
                 "Pb %": [sw["Pb_pct"], estimate.grades["Pb_pct"]],
                 "Zn %": [sw["Zn_pct"], estimate.grades["Zn_pct"]],
-            }), hide_index=True, use_container_width=True,
+            }), hide_index=True, width="stretch",
                 column_config={c: st.column_config.NumberColumn(format="%.2f")
                                for c in ("Cu %", "Pb %", "Zn %")})
             st.caption(f"{sw['n_intercepts']} graded intercepts digitised from "
@@ -427,17 +427,17 @@ with tab_data:
     st.subheader("Composite assays")
     st.caption("Transcribed and cross-checked from four scanned reports with "
                "no text layer. This table is the model's entire training set.")
-    st.dataframe(composites, hide_index=True, use_container_width=True,
+    st.dataframe(composites, hide_index=True, width="stretch",
                  height=320)
 
     d1, d2 = st.columns(2)
     with d1:
         st.markdown("**Drillhole collars**")
-        st.dataframe(collars, hide_index=True, use_container_width=True,
+        st.dataframe(collars, hide_index=True, width="stretch",
                      height=280)
     with d2:
         st.markdown("**Cross-section intercepts**")
-        st.dataframe(sections, hide_index=True, use_container_width=True,
+        st.dataframe(sections, hide_index=True, width="stretch",
                      height=280)
 
     st.download_button(
