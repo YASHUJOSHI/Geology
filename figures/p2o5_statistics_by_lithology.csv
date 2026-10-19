@@ -1,0 +1,6 @@
+lithology,count,mean,std,min,10%,50%,90%,max
+"Phosphorite, pelletal",309.0,19.35,4.0,12.61,14.25,18.98,24.84,30.22
+Phosphatic carbonaceous shale,258.0,8.69,3.22,0.54,4.64,9.1,12.69,14.91
+Phosphatic limestone,87.0,8.98,3.07,0.69,5.86,9.16,12.52,14.65
+Carbonaceous shale,532.0,3.69,3.48,0.31,0.94,2.93,6.87,28.25
+Limestone,350.0,2.85,2.06,0.34,0.83,2.23,5.62,13.79

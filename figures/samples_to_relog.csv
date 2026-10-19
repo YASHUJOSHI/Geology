@@ -1,0 +1,91 @@
+sample_id,hole_id,lithology,P2O5,f_francolite_true,p_model,indicator_score,rule_check,model_check
+S00607,SYN151,Carbonaceous shale,28.251,0.81,0.995,1.0,chem_positive_log_barren,model_positive_log_barren
+S00675,SYN168,Carbonaceous shale,13.877,0.423,0.995,1.0,chem_positive_log_barren,model_positive_log_barren
+S01027,SYN256,Carbonaceous shale,20.633,0.59,0.995,1.0,chem_positive_log_barren,model_positive_log_barren
+S00809,SYN202,Carbonaceous shale,16.863,0.539,0.992,1.0,chem_positive_log_barren,model_positive_log_barren
+S01023,SYN255,Limestone,11.912,0.361,0.991,1.0,chem_positive_log_barren,model_positive_log_barren
+S00507,SYN126,Carbonaceous shale,23.173,0.587,0.99,1.0,chem_positive_log_barren,model_positive_log_barren
+S00823,SYN205,Carbonaceous shale,15.399,0.431,0.988,1.0,chem_positive_log_barren,model_positive_log_barren
+S01244,SYN311,Carbonaceous shale,26.764,0.746,0.982,1.0,chem_positive_log_barren,model_positive_log_barren
+S00921,SYN230,Limestone,11.095,0.351,0.974,1.0,chem_positive_log_barren,model_positive_log_barren
+S00115,SYN028,Carbonaceous shale,15.836,0.428,0.968,1.0,chem_positive_log_barren,model_positive_log_barren
+S00903,SYN225,Carbonaceous shale,15.884,0.446,0.964,1.0,chem_positive_log_barren,model_positive_log_barren
+S00785,SYN196,Carbonaceous shale,13.189,0.429,0.959,1.0,chem_positive_log_barren,model_positive_log_barren
+S00924,SYN231,Limestone,13.791,0.346,0.956,1.0,chem_positive_log_barren,model_positive_log_barren
+S01108,SYN277,Carbonaceous shale,8.535,0.231,0.955,1.0,chem_positive_log_barren,model_positive_log_barren
+S00577,SYN144,Carbonaceous shale,17.194,0.502,0.954,1.0,chem_positive_log_barren,model_positive_log_barren
+S01146,SYN286,Carbonaceous shale,15.964,0.443,0.954,1.0,chem_positive_log_barren,model_positive_log_barren
+S00911,SYN227,Carbonaceous shale,23.452,0.588,0.949,1.0,chem_positive_log_barren,model_positive_log_barren
+S00502,SYN125,Carbonaceous shale,8.907,0.302,0.948,0.86,chem_positive_log_barren,model_positive_log_barren
+S00874,SYN218,Carbonaceous shale,7.22,0.208,0.944,0.86,chem_positive_log_barren,model_positive_log_barren
+S01022,SYN255,Limestone,11.241,0.29,0.944,1.0,chem_positive_log_barren,model_positive_log_barren
+S00489,SYN122,Carbonaceous shale,23.776,0.611,0.942,1.0,chem_positive_log_barren,model_positive_log_barren
+S00861,SYN215,Carbonaceous shale,7.325,0.224,0.937,0.86,chem_positive_log_barren,model_positive_log_barren
+S00312,SYN078,Carbonaceous shale,13.904,0.381,0.925,1.0,chem_positive_log_barren,model_positive_log_barren
+S01332,SYN333,Carbonaceous shale,11.865,0.372,0.916,1.0,chem_positive_log_barren,model_positive_log_barren
+S01324,SYN331,Carbonaceous shale,10.628,0.315,0.902,1.0,chem_positive_log_barren,model_positive_log_barren
+S00952,SYN238,Carbonaceous shale,8.01,0.24,0.899,1.0,chem_positive_log_barren,model_positive_log_barren
+S00970,SYN242,Carbonaceous shale,8.015,0.196,0.898,0.86,chem_positive_log_barren,model_positive_log_barren
+S00779,SYN194,Carbonaceous shale,13.45,0.355,0.887,1.0,chem_positive_log_barren,model_positive_log_barren
+S01154,SYN288,Carbonaceous shale,7.493,0.197,0.876,0.86,chem_positive_log_barren,model_positive_log_barren
+S00761,SYN190,Limestone,7.089,0.251,0.873,1.0,chem_positive_log_barren,model_positive_log_barren
+S01060,SYN265,Carbonaceous shale,5.485,0.166,0.867,0.86,chem_positive_log_barren,model_positive_log_barren
+S00520,SYN130,Carbonaceous shale,8.709,0.216,0.866,1.0,chem_positive_log_barren,model_positive_log_barren
+S00878,SYN219,Carbonaceous shale,6.876,0.209,0.865,0.86,chem_positive_log_barren,model_positive_log_barren
+S00303,SYN075,Carbonaceous shale,10.94,0.34,0.859,1.0,chem_positive_log_barren,model_positive_log_barren
+S00776,SYN194,Limestone,7.47,0.208,0.846,1.0,chem_positive_log_barren,model_positive_log_barren
+S00996,SYN249,Carbonaceous shale,6.162,0.172,0.845,0.86,chem_positive_log_barren,model_positive_log_barren
+S00780,SYN195,Limestone,6.245,0.185,0.838,0.86,chem_positive_log_barren,model_positive_log_barren
+S00875,SYN218,Carbonaceous shale,7.473,0.221,0.833,0.86,chem_positive_log_barren,model_positive_log_barren
+S00103,SYN025,Carbonaceous shale,10.347,0.28,0.822,0.86,chem_positive_log_barren,model_positive_log_barren
+S00872,SYN218,Limestone,6.951,0.196,0.805,0.86,chem_positive_log_barren,model_positive_log_barren
+S00127,SYN031,Phosphatic carbonaceous shale,5.19,0.157,0.184,0.71,agree,model_negative_log_phosphatic
+S00028,SYN007,Phosphatic carbonaceous shale,5.372,0.148,0.183,0.86,agree,model_negative_log_phosphatic
+S01477,SYN369,Phosphatic carbonaceous shale,5.279,0.174,0.179,0.86,agree,model_negative_log_phosphatic
+S00463,SYN115,Phosphatic limestone,5.471,0.171,0.173,0.86,agree,model_negative_log_phosphatic
+S01495,SYN373,Phosphatic carbonaceous shale,5.704,0.16,0.168,0.86,agree,model_negative_log_phosphatic
+S00010,SYN002,Phosphatic carbonaceous shale,6.606,0.177,0.168,0.71,agree,model_negative_log_phosphatic
+S00076,SYN019,Phosphatic carbonaceous shale,5.306,0.147,0.16,0.86,agree,model_negative_log_phosphatic
+S00207,SYN051,Phosphatic carbonaceous shale,5.442,0.167,0.15,0.86,agree,model_negative_log_phosphatic
+S00113,SYN028,Phosphatic carbonaceous shale,10.099,0.261,0.147,1.0,agree,model_negative_log_phosphatic
+S00731,SYN182,Phosphatic carbonaceous shale,7.817,0.231,0.144,1.0,agree,model_negative_log_phosphatic
+S01531,SYN382,Phosphatic limestone,6.33,0.17,0.14,1.0,agree,model_negative_log_phosphatic
+S00112,SYN028,Phosphatic carbonaceous shale,5.049,0.144,0.132,0.86,agree,model_negative_log_phosphatic
+S00037,SYN009,Phosphatic carbonaceous shale,4.95,0.142,0.129,0.86,agree,model_negative_log_phosphatic
+S00538,SYN134,Phosphatic carbonaceous shale,3.766,0.091,0.116,0.71,agree,model_negative_log_phosphatic
+S00069,SYN017,Phosphatic carbonaceous shale,5.673,0.155,0.105,0.86,agree,model_negative_log_phosphatic
+S00210,SYN052,Phosphatic carbonaceous shale,6.04,0.177,0.104,0.86,agree,model_negative_log_phosphatic
+S00454,SYN113,Phosphatic carbonaceous shale,3.393,0.081,0.088,0.86,agree,model_negative_log_phosphatic
+S00160,SYN040,Phosphatic carbonaceous shale,3.556,0.118,0.067,0.86,agree,model_negative_log_phosphatic
+S00134,SYN033,Phosphatic carbonaceous shale,7.264,0.216,0.067,0.86,agree,model_negative_log_phosphatic
+S00220,SYN055,Phosphatic carbonaceous shale,5.947,0.159,0.064,0.71,agree,model_negative_log_phosphatic
+S00005,SYN001,Phosphatic carbonaceous shale,6.36,0.169,0.064,0.86,agree,model_negative_log_phosphatic
+S00108,SYN027,Phosphatic carbonaceous shale,5.258,0.178,0.052,0.86,agree,model_negative_log_phosphatic
+S00764,SYN191,Phosphatic limestone,2.544,0.077,0.047,0.86,agree,model_negative_log_phosphatic
+S01482,SYN370,Phosphatic carbonaceous shale,4.492,0.145,0.044,0.86,agree,model_negative_log_phosphatic
+S01202,SYN300,Phosphatic carbonaceous shale,2.978,0.094,0.044,0.71,agree,model_negative_log_phosphatic
+S01299,SYN324,Phosphatic carbonaceous shale,6.655,0.191,0.04,0.86,agree,model_negative_log_phosphatic
+S01172,SYN293,Phosphatic carbonaceous shale,1.392,0.034,0.038,0.71,agree,model_negative_log_phosphatic
+S01388,SYN347,Phosphatic carbonaceous shale,5.0,0.139,0.028,0.86,agree,model_negative_log_phosphatic
+S01207,SYN301,Phosphatic carbonaceous shale,4.162,0.119,0.026,0.86,agree,model_negative_log_phosphatic
+S01282,SYN320,Phosphatic carbonaceous shale,0.538,0.012,0.022,0.29,log_positive_chem_weak,model_negative_log_phosphatic
+S01471,SYN367,Phosphatic carbonaceous shale,1.994,0.058,0.021,0.29,log_positive_chem_weak,model_negative_log_phosphatic
+S00156,SYN039,Phosphatic carbonaceous shale,3.995,0.108,0.02,0.86,agree,model_negative_log_phosphatic
+S00316,SYN079,Phosphatic carbonaceous shale,2.391,0.078,0.017,0.71,agree,model_negative_log_phosphatic
+S01363,SYN340,Phosphatic carbonaceous shale,1.025,0.026,0.015,0.29,log_positive_chem_weak,model_negative_log_phosphatic
+S01274,SYN318,Phosphatic carbonaceous shale,4.439,0.096,0.015,0.71,agree,model_negative_log_phosphatic
+S00321,SYN080,Phosphatic carbonaceous shale,2.887,0.083,0.013,0.71,agree,model_negative_log_phosphatic
+S00748,SYN187,Phosphatic limestone,0.741,0.018,0.012,0.57,agree,model_negative_log_phosphatic
+S01463,SYN365,Phosphatic carbonaceous shale,2.244,0.057,0.012,0.43,log_positive_chem_weak,model_negative_log_phosphatic
+S01176,SYN294,Phosphatic carbonaceous shale,1.657,0.045,0.012,0.71,agree,model_negative_log_phosphatic
+S01374,SYN343,Phosphatic carbonaceous shale,1.166,0.03,0.011,0.43,log_positive_chem_weak,model_negative_log_phosphatic
+S00279,SYN069,Phosphatic carbonaceous shale,1.545,0.04,0.011,0.57,agree,model_negative_log_phosphatic
+S00637,SYN159,Phosphatic limestone,2.856,0.074,0.01,0.86,agree,model_negative_log_phosphatic
+S01499,SYN374,Phosphatic limestone,2.916,0.073,0.009,0.86,agree,model_negative_log_phosphatic
+S01189,SYN297,Phosphatic carbonaceous shale,2.181,0.053,0.008,0.14,log_positive_chem_weak,model_negative_log_phosphatic
+S01072,SYN268,Phosphatic carbonaceous shale,2.119,0.056,0.008,0.57,agree,model_negative_log_phosphatic
+S00286,SYN071,Phosphatic limestone,0.878,0.021,0.005,0.43,log_positive_chem_weak,model_negative_log_phosphatic
+S00742,SYN185,Phosphatic limestone,0.687,0.016,0.005,0.71,agree,model_negative_log_phosphatic
+S00372,SYN093,Phosphatic limestone,1.247,0.032,0.005,0.57,agree,model_negative_log_phosphatic
+S00282,SYN070,Phosphatic carbonaceous shale,0.666,0.02,0.004,0.57,agree,model_negative_log_phosphatic
+S01457,SYN364,Phosphatic carbonaceous shale,1.246,0.031,0.004,0.43,log_positive_chem_weak,model_negative_log_phosphatic
