@@ -1,5 +1,10 @@
 # Askot Cu-Pb-Zn deposit — machine-learning resource model
 
+[![Open the live dashboard](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://askot-resource-model.streamlit.app)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Tests: 24](https://img.shields.io/badge/tests-24%20passing-brightgreen.svg)](tests/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A reproducible 3-D grade and tonnage model for the **Askot polymetallic
 (Cu-Pb-Zn) deposit**, Pithoragarh district, Uttarakhand, India — rebuilt from
 the original assay data of four exploration campaigns spanning 1974–2018, and
