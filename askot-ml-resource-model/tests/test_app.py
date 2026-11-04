@@ -28,12 +28,12 @@ def test_app_runs_without_exception(app):
 
 def test_header_metrics_are_rendered(app):
     labels = [m.label for m in app.metric]
-    assert "Tonnage above cut-off" in labels
+    assert "Tonnage" in labels
     assert {"Cu", "Pb", "Zn"} <= set(labels)
 
 
 def test_default_cutoff_reports_the_published_tonnage(app):
-    tonnage = next(m for m in app.metric if m.label == "Tonnage above cut-off")
+    tonnage = next(m for m in app.metric if m.label == "Tonnage")
     assert tonnage.value.endswith("Mt")
     assert float(tonnage.value.removesuffix(" Mt")) == pytest.approx(1.52, abs=0.08)
 
@@ -43,7 +43,7 @@ def test_raising_the_cutoff_shrinks_the_reported_tonnage():
     at.run()
 
     def tonnage(a):
-        m = next(x for x in a.metric if x.label == "Tonnage above cut-off")
+        m = next(x for x in a.metric if x.label == "Tonnage")
         return float(m.value.removesuffix(" Mt"))
 
     before = tonnage(at)

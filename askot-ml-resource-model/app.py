@@ -145,15 +145,22 @@ st.markdown(
 classical_low, classical_high = 0.77, 1.86
 inside = classical_low <= estimate.tonnage_mt <= classical_high
 
-c1, c2, c3, c4, c5 = st.columns(5)
-c1.metric("Tonnage above cut-off", f"{estimate.tonnage_mt:.2f} Mt",
-          delta=("inside classical range" if inside else "outside 0.77–1.86 Mt"),
-          delta_color="normal" if inside else "inverse")
-c2.metric("Cu", f"{estimate.grades['Cu_pct']:.2f} %")
-c3.metric("Pb", f"{estimate.grades['Pb_pct']:.2f} %")
-c4.metric("Zn", f"{estimate.grades['Zn_pct']:.2f} %")
-c5.metric("Ore blocks", f"{estimate.n_blocks:,}",
-          delta=f"of {estimate.n_blocks_in_range:,} supported")
+# Two rows rather than five metrics across. Five fit only on a wide desktop;
+# at an intermediate window width (~700-1000 px) each gets roughly 100 px and
+# Streamlit clips the values to "1.52..." and "2....", losing the very numbers
+# the page exists to report. Headline tonnage and block count on top, the three
+# grades below, so every value stays readable from phone to desktop.
+head_tonnage, head_blocks = st.columns([2, 1])
+head_tonnage.metric("Tonnage", f"{estimate.tonnage_mt:.2f} Mt",
+                    delta=("in classical range" if inside else "outside range"),
+                    delta_color="normal" if inside else "inverse")
+head_blocks.metric("Ore blocks", f"{estimate.n_blocks:,}",
+                   delta=f"of {estimate.n_blocks_in_range:,} in range")
+
+grade_cu, grade_pb, grade_zn = st.columns(3)
+grade_cu.metric("Cu", f"{estimate.grades['Cu_pct']:.2f} %")
+grade_pb.metric("Pb", f"{estimate.grades['Pb_pct']:.2f} %")
+grade_zn.metric("Zn", f"{estimate.grades['Zn_pct']:.2f} %")
 
 st.caption(
     f"At a {cutoff:g}% TMC cut-off, {params.block_size_m:g} m blocks and "
